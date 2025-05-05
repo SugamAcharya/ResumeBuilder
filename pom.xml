@@ -116,7 +116,6 @@
 						<arg>-Xjsr305=strict</arg>
 					</args>
 					<compilerPlugins>
-						<plugin>jvm</plugin>
 						<plugin>spring</plugin>
 						<plugin>jpa</plugin>
 						<plugin>all-open</plugin>
@@ -141,6 +140,7 @@
 				</dependencies>
 			</plugin>
 		</plugins>
+		<finalName>resume</finalName>
 	</build>
 
 </project>
